@@ -1,0 +1,138 @@
+.userPanel {
+  padding: 20px;
+  background-color: rgba(67, 185, 102, 0.05);
+  height: calc(100vh - 90px);
+}
+
+.userPanel > div > p {
+  font-size: 18px;
+  color: #666;
+  padding-left: 10px;
+}
+
+.contentArea {
+  width: 800px;
+  min-height: 250px;
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.contentTitle {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.contentTitle > p {
+  font-size: 18px;
+  color: #444;
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+
+.contentDetails {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contentDetails > p {
+  font-size: 16px;
+}
+
+.contentDetails > p:nth-of-type(even) {
+  font-weight: bolder;
+}
+
+.contentDetails > button {
+  margin-top: 15px;
+  width: 50%;
+  height: 40px;
+  background-color: rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 5px;
+  color: #444;
+  font-size: 16px;
+  padding-top: 3px;
+}
+
+.contentDetails > button:hover {
+  cursor: pointer;
+}
+
+.currentTags {
+  margin-top: 15px;
+}
+
+.currentTags > p {
+  font-size: 16px;
+}
+
+.tagGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -3px -3px;
+}
+
+.tagName {
+  border-radius: 5px;
+  display: flex;
+  margin: 3px 3px;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.tagName:nth-of-type(odd) {
+  border: 1px solid rgba(67, 185, 102, 0.75);
+  color: rgba(67, 185, 102, 0.75);
+  font-weight: 100;
+}
+
+.tagName:nth-of-type(even) {
+  border: 1px solid rgba(67, 185, 102, 0.5);
+  color: rgba(67, 185, 102, 0.5);
+  font-weight: 100;
+}
+
+.addTags {
+  margin-top: 15px;
+}
+
+.addTags > p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.addTags > input {
+  width: 50%;
+  margin-right: 20px;
+  height: 40px;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.addTags > input:focus {
+  border: 1px solid rgb(67, 185, 102);
+  box-shadow: 0 0 5px 2px rgb(67, 185, 102);
+}
+
+.addTags > button {
+  margin-top: 0;
+  margin-top: 15px;
+  width: 75px;
+  height: 40px;
+  background-color: rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 5px;
+  color: #444;
+  font-size: 16px;
+  padding-top: 3px;
+}
+
+.addTags > button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,243 @@
+.outerArea {
+  width: 100vw;
+  height: calc(100vh - 90px);
+  background-color: #000;
+  padding-top: 50px;
+  opacity: 0.8;
+}
+
+.modalBox {
+  width: 500px;
+  height: 450px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.modalBox > hr {
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 2px 8px 1px #aaa;
+}
+
+.welcomeBlock {
+  text-align: center;
+}
+
+.welcomeBlock > p {
+  font-size: 20px;
+  color: #444;
+  padding-top: 20px;
+}
+
+.welcomeBlock > img {
+  border-radius: 50%;
+  height: 150px;
+  width: auto;
+}
+
+.modalHeader {
+  color: #444;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.modalUserError {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.modalUserError > p {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(185, 67, 67, 0.5);
+  background-color: rgba(185, 67, 67, 0.1);
+  margin: 40px;
+  font-size: 16px;
+  color: #444;
+  text-align: left;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.modalUsername {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.modalUsername > input {
+  width: 250px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.modalUsername > input:focus {
+  border: 1px solid rgb(67, 185, 102);
+  box-shadow: 0 0 5px 2px rgb(67, 185, 102);
+}
+
+.usernameIcon {
+  color: rgb(67, 185, 102);
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.usernameButton {
+  width: 280px;
+  margin-top: 20px;
+  height: 40px;
+  background-color: rgb(67, 185, 102);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.usernameButton:hover {
+  background-color: #fff;
+  color: rgb(67, 185, 102);
+  border: 2px solid rgb(67, 185, 102);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.usernameButton:focus {
+  background-color: #fff;
+  color: rgb(67, 185, 102);
+  border: 2px solid rgb(67, 185, 102);
+  border-radius: 5px;
+}
+
+.modalPassword {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.modalPassword > input {
+  width: 250px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.modalPassword > input:focus {
+  border: 1px solid rgb(67, 185, 102);
+  box-shadow: 0 0 5px 2px rgb(67, 185, 102);
+}
+
+.passwordIcon {
+  color: rgb(67, 185, 102);
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.passwordButton {
+  width: 280px;
+  margin-top: 20px;
+  height: 40px;
+  background-color: rgb(67, 185, 102);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.passwordButton:hover {
+  background-color: #fff;
+  color: rgb(67, 185, 102);
+  border: 2px solid rgb(67, 185, 102);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.passwordButton:focus {
+  background-color: #fff;
+  color: rgb(67, 185, 102);
+  border: 2px solid rgb(67, 185, 102);
+  border-radius: 5px;
+}
+
+.createAccount {
+  text-align: center;
+}
+
+.createAccount > p {
+  color: #444;
+  font-size: 20px;
+}
+
+.createAccount > button {
+  width: 280px;
+  height: 40px;
+  color: rgb(67, 185, 102);
+  background-color: #fff;
+  border: 2px solid rgb(67, 185, 102);
+  border-radius: 5px;
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.createAccount > button:hover {
+  background-color: rgb(67, 185, 102);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding-top: 4px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.createAccount > button:focus {
+  background-color: rgb(67, 185, 102);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding-top: 4px;
+  border-radius: 0;
+}
+
+.continueToPortal {
+  text-align: center;
+}
+
+.continueToPortal > button {
+  width: 280px;
+  height: 40px;
+  color: rgb(67, 185, 102);
+  background-color: #fff;
+  border: 2px solid rgb(67, 185, 102);
+  border-radius: 5px;
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.continueToPortal > button:hover {
+  background-color: rgb(67, 185, 102);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding-top: 4px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.continueToPortal > button:focus {
+  background-color: rgb(67, 185, 102);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding-top: 4px;
+  border-radius: 0;
+}

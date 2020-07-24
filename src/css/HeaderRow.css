@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.headerRow {
+  height: 90px;
+  border-bottom: 1px solid rgb(67, 185, 102);
+  box-shadow: 0px 1px 5px 1px rgb(99, 185, 118);
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  align-content: center;
+  z-index: 2;
+}
+
+.headerTitle > p {
+  color: rgb(67, 185, 102);
+  font-weight: 300;
+  font-family: 'Montserrat';
+  display: inline;
+  margin-left: 10px;
+}
+
+.headerTitle > p:nth-of-type(1) {
+  font-size: 35px;
+}
+
+.headerTitle > p:nth-of-type(2) {
+  font-size: 20px;
+}
+
+.userOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.userOptions > p {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-right: 20px;
+  color: #666;
+}
+
+.userOptions > p:hover {
+  cursor: pointer;
+  color: rgb(67, 185, 102);
+}
+
+.userDetails {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.userDetails > img {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+}
+
+.userDetails > img:hover {
+  cursor: pointer;
+}
+
+.userDetails > p {
+  font-size: 16px;
+  color: #666;
+  display: flex;
+  margin-top: 16px !important;
+}
+
+.userDetails > p:hover {
+  cursor: pointer;
+  color: rgb(67, 185, 102);
+}
+
+.userDropdown {
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.dropdownPointer {
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid rgba(67, 185, 102, 0.5);
+  position: absolute;
+  right: 25px;
+  top: 70px;
+}
+
+.dropdownMenu {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.dropdownIcon {
+  display: inline-block;
+  color: rgb(67, 185, 102);
+  margin-left: 40px;
+}
+
+.dropdownMenu > p {
+  display: inline-block;
+  font-size: 16px;
+  color: #666;
+  margin-left: 25px;
+  margin-top: -4px;
+}
+
+.dropdownMenu > p:hover {
+  color: rgb(67, 185, 102);
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.landingBody {
+  width: 100vw;
+  height: calc(100vh - 90px);
+}
+
+.landingBody > img {
+  width: 100vw;
+  height: calc(100vh - 90px);
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+}
